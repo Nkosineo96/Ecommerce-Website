@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Store | Ecommerce Website || Neoh Nkosi</title>
+    <title>Ecommerce Website || Neoh Nkosi</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,10 +18,10 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <img src="images/logo.png" width="125px" alt="">
+                    <img src="images/logo.png" width="125px">
                 </div>
                 <nav>
-                    <ul>
+                    <ul id="MenuItems">
                         <li><a href="">Home</a></li>
                         <li><a href="">Products</a></li>
                         <li><a href="">About</a></li>
@@ -30,6 +30,7 @@
                     </ul>
                 </nav>
                 <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
             <div class="row">
                 <div class="col-2">
@@ -119,7 +120,241 @@
                 <p>R560</p>
             </div>
         </div>
+        <!-- ------Latest Categories---- -->
+        <h2 class="title">Latest Categories</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg">
+                <h4>Gray Casual Shoes</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+
+                </div>
+                <p>R1460</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-6.jpg">
+                <h4>Black Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+
+                </div>
+                <p>R400</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-7.jpg">
+                <h4>Socks</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+
+                </div>
+                <p>R180</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-8.jpg">
+                <h4>Black Metal Watch</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+
+                </div>
+                <p>R820</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg">
+                <h4>Black Leather Watch</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+
+                </div>
+                <p>R950</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-10.jpg">
+                <h4>Black Red Shoes</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+
+                </div>
+                <p>R1800</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-11.jpg">
+                <h4>Gray Casual Shoes</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+
+                </div>
+                <p>R1700</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-12.jpg">
+                <h4>Back Causual Trouser</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+                </div>
+                <p>R450</p>
+            </div>
+        </div>
     </div>
 
+    <!-- ----------offer---------  -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on RedStore</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi Smart Band 4 features a 39.9% larger (Than Mi Band 3) AMOLED color full-touch display with adjustable brightness, so everything is clear as can be.</small>
+                    <br>
+                    <a href="" class="btn" >Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------Testimonial--------- -->
+    <div class="testimonial">
+        <div class="smal-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aperiam voluptas earum eligendi deserunt accusantium asperiores cum odit enim.</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+                </div>
+                    <img src="images/Neoh Nkosi.jpg">
+                    <h3>Neoh</h3>
+                </div>
+
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aperiam voluptas earum eligendi deserunt accusantium asperiores cum odit enim.</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+                </div>
+                    <img src="images/user-2.png">
+                    <h3>Samkelo</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aperiam voluptas earum eligendi deserunt accusantium asperiores cum odit enim.</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+                </div>
+                    <img src="images/Njabulo Nkosi.jpg">
+                    <h3>Njabulo</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------Brands----------->
+    <div class="brands">
+        <div class="smal-container">
+            <div class="row">
+                <div class="col-5"><img src="images/logo-godrej.png"></div>
+                <div class="col-5"><img src="images/logo-oppo.png"></div>
+                <div class="col-5"><img src="images/logo-coca-cola.png"></div>
+                <div class="col-5"><img src="images/logo-paypal.png"></div>
+                <div class="col-5"><img src="images/logo-philips.png"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------footer--------- -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>Our Purpose is to sustainably Make the Pleasure and Benefit of Sport Accessible to the Many</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2023 -- E-commerce Web By Nkosi Neoh</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
