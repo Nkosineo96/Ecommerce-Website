@@ -32,9 +32,22 @@ nav ul li{
     margin-right: 20px;
 }
 
+.cart{
+    width: 30px;
+    height: 30px;
+
+}
+
+nav ul li:hover a{
+    color: #ff523b;
+    cursor: pointer;
+}
+
 a{
     text-decoration: none;
     color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
 }
 
 p{
@@ -306,10 +319,10 @@ footer hr{
     margin: 20px 0;
 }
 
-.menu-icon{
+.menu-icon {
+    display: hidden;
     width: 20px;
     margin-left: 20px;
-    display: hidden;
 }
 
 .Copyright{
@@ -323,23 +336,32 @@ footer hr{
     nav ul{
         position: absolute;
         top: 70px;
-        left: 0;
+        right: 0;
         background: #333;
         width: 100%;
         overflow: hidden;
         transition: max-height .5s;
+        z-index: 10;
     }
 
     nav ul li{
         display: block;
-        margin-top: 50px;
-        margin-right: 10px;
-        margin-bottom: 10p;
+        margin-top: 10px;
+        margin-right: 10%;
+        margin-bottom: 10px;
+        text-align: center;
+        
     }
 
     nav ul li a{
         color: #fff;
+        transition: color 0.5s ease;
     }
+
+    nav ul li:hover a{
+        color: #ff523b;
+    }
+
     .menu-icon{
         display: block;
         cursor: pointer;
